@@ -31,5 +31,21 @@ Or
 * Run `npm install` to install the needed node js packages.
 * Run `DBURL="mongodb://localhost:27017/urlShortener" node server.js`
 
+## How to use
+To generate a shortened URL send a post request to `http://localhost:3000/generateUrl` with a JSON request body passing in the URL you wish to shorten
+Example:
+
+`
+{
+	"url":"www.facebook.com"
+}
+`
+
+The response should be a URL that you can then browse to, such as the following:
+
+`localhost:3000/TL6brFvI`
+
+When you browse to your generated link, with the service running, you will be redirected to the URL you originally submitted to the service.
+
 ## Contributors
 [James Nightingale](https://github.com/jamchni)
