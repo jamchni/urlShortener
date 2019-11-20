@@ -18,7 +18,7 @@ Or
 
 ## How to run Docker/Docker Compose (Recommended)
 * Run `docker-compose up`
-* Application should be available on localhost port 3000
+* Application should now be available, you can browse to `http://localhost:3000/test` to confirm, you should see `OK` in the browser window.
 
 ## How to use
 To generate a shortened URL send a post request to `http://localhost:3000/generateUrl` with a JSON request body passing in the URL you wish to shorten.
