@@ -23,7 +23,7 @@ Or
 ## How to use
 To generate a shortened URL send a post request to `http://localhost:3000/generateUrl` with a JSON request body passing in the URL you wish to shorten.
 
-#####Please note that the url you pass to the service should just be the domain name, not including http://
+##### Please note that the url you pass to the service should just be the domain name, not including http://
 
 Example 1:
 
